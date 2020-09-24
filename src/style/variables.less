@@ -1,0 +1,100 @@
+//=============================老版本=====================
+// **************   fs: font-size  ***************
+// **************  fc: font-color  ***************
+// ***************   mob: mobile   **************  
+// ***************   in: inside   **************  
+//背景色
+@color-bgc : #F6F9FD;
+
+//一般字体颜色
+@fc-normal : #333;
+// //提示字体颜色(用在表单dt)
+@fc-label : #666;
+//信息字体颜色(用在text-info)
+@fc-info : #999;
+//文字不可用状态
+@fc-disable : #ccc;
+//placeholder文字颜色
+@fc-placeholder : #c2c2c2; // #a9a9a9;
+//默认黑色字
+@fc-gray : #191919;
+//边框颜色
+@bc-normal : #d7d7d7;
+//内联边框颜色
+@bc-inline : #e7e7e7;
+//有色按钮里的字体颜色u
+@colour-white : #fff;
+//警告红色
+@colour-red : #f83939; //#fa5e3d;
+//橙色
+@color-orange : #f8a339; //#ff8b03
+//绿色
+@colour-green : #25cb67; //rgb(35, 199, 173)
+@colour-other-green : #23CDA7; //#23CDA7
+//蓝色
+@colour-blue : #262DD9; //  #478aee;  //厦门银行修改蓝色色值
+
+@colour-blue-deep : #3c75cb; //按钮按压蓝色 #3c75cb
+@colour-blue-press : #5b8aeb; // 按钮按压蓝色5b8aeb
+
+@colour-blue-hover : #5e98f3; // 按钮滑过蓝色 #5e98f3
+@colour-blue-disabled : #5e98f3; //按钮不可点击蓝色 
+//不可用状态(已撤销/已转交、已取消)
+@color-disable : @fc-info;
+@myopacity : 0.3;
+//pc宽度
+@pc-width : 550px;
+
+
+//=============================新版本==============================
+// ---------------------new UI screen width variables----------------
+
+
+//屏幕尺寸
+@screen-xs-max : 480px;
+@screen-md-min : 768px;
+@screen-lg-min : 1080px;
+
+
+
+//-------------------暂不使用，方便以后扩展--------------------------
+// @screen-xs-max: 478px;
+// @screen-sm-min: 538px; //537.98px
+// @screen-sm-max: 767.98px;
+// @screen-md-min: 768px; //767.98px
+// @screen-md-max: 991.98px;
+// @screen-lg-min:992px; //991.98px
+// @screen-xl-min:1200px; //1199.98px
+
+
+//------------------- normal 通用样式--------------------------
+//dom最大宽度
+@max-content-width : 1080px;
+//虚分界线颜色
+@dash-border : #555;
+//实分界线颜色
+@in-solid-border: @color-bgc;
+
+//按钮通用颜色
+@btn-normal : @colour-blue;
+//按钮点击颜色
+@btn-hover : @colour-blue-hover;
+//按钮无法点击颜色
+@btn-disable : #ccc;
+
+//------------------- mobile 移动端通用样式 --------------------------
+//手机端通用字体大小
+@fs-mob-normal : 0.32rem;
+//手机端通用padding距离
+@padding-mob-normal : 0.3rem;
+//手机端通用margin距离
+@margin-mob-normal : 0.2rem;
+
+//---------------- pc端通用样式 包括pc客户端 浏览器端 --------------------
+//PC端通用字体大小
+@fs-pc-normal : 16px;
+@fs-pc-small : 14px;
+//pc端通用padding距离
+@padding-pc-normal : 30px;
+//pc端通用margin距离
+@margin-pc-normal : 20px;

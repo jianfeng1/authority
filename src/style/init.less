@@ -1,0 +1,119 @@
+@import './variables.less';
+
+*{
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+
+body, html{
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+body{
+    font-size: 0.3rem;
+    color: @fc-normal;
+    background-color: @color-bgc;
+}
+
+body{
+    font-family: 'Hiragino Sans GB','Microsoft Yahei','微软雅黑','宋体',Tahoma,Arial,Helvetica,STHeiti,sans-serif;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: lighter;
+}
+button{
+border: none;
+}
+ul, ul li{
+    list-style-type: none;
+}
+
+ul, ol{
+    padding: 0;
+}
+
+a,a:active,a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+	border:none;
+}
+b,strong{
+	font-weight:normal;
+}
+    
+input, textarea{
+    font-family: 'Hiragino Sans GB', 'Microsoft Yahei', '宋体', Tahoma, Arial, Helvetica, STHeiti, sans-serif;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+.cf:before, .cf:after{
+    content: "";
+    display: table;
+}
+
+.cf:after{
+    clear: both;
+}
+
+.nowrap{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tb{
+    display: table;
+    width: 100%;
+    .cell{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .min{
+        display: table-cell;
+        width: 1%;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+    .max{
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+    }
+}
+
+.nowrap{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hide{
+    display: none;
+}
+
+.info{
+    color: @fc-info;
+}

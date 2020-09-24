@@ -1,0 +1,8 @@
+{
+  "realm": "bplusdev",
+  "auth-server-url": "https://bplusdev.sinosun.com:18180/auth",
+  "ssl-required": "none",
+  "resource": "CONF_H5",
+  "public-client": true,
+  "confidential-port": 0
+}
